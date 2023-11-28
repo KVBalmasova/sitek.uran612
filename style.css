@@ -1,0 +1,97 @@
+#navbar ul{
+    display: none;
+    background-color: #3b3b3b;
+    position: absolute;
+    top: 100%;
+}
+
+#navbar li:hover ul { display: block;}
+
+#navbar, #navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navbar {
+    height: 80px;
+    background-image: url(https://sun9-37.userapi.com/impg/F18CgFwpL3HFXC5RyV1AZJ1RbYIMVg8Xo5Zwgw/Cu9CHachVIQ.jpg?size=1691x107&quality=96&sign=8cb08584822154aaf40e608cf8a79fa8&type=album);
+    background-size: 1920px;
+    padding-left: 618px;
+    min-width: 470px;
+}
+
+#navbar li {
+    float: left;
+    position: relative;
+    height: 100%;
+	transition: background-color 0.2s ease;
+}
+
+#navbar li a {
+    display: block;
+	padding-top:30px;
+	padding-bottom:30px;
+    padding-left:10px;
+	padding-right:10px;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+#navbar ul li { float: none; }
+#navbar li:hover { background-color: #050029; }
+
+#navbar ul li:hover { background-color: #424242; }
+
+body {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+html {
+    background-color: #f6f6fe;
+}
+
+#appimg {
+    height: 480px;
+    width: auto;
+    background-image: url(https://sun9-13.userapi.com/impg/CYQ3kxD_ziJlxi9OXijYiaNyUyInuG2dZAF3gw/Y7IIscXFOFg.jpg?size=2560x640&quality=96&sign=950dadafaf74ebc8b9f6ac8e3583cd00&type=album);
+    background-size: 1920px 480px;
+}
+
+#appimg p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 860px;
+    font-weight: bold;
+}
+
+#appline {
+    height: 2px;
+    background-color: #000724;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+@media screen and (min-width: 1179px) and (max-width: 1367px) {
+    #navbar {padding-left: 430px;}
+    #appimg p {padding-right: 600px;}}
+
+@media screen and (min-width: 1000px) and (max-width: 1179px) {
+    #navbar {padding-left: 5px;}
+    #appimg p {padding-right: 300px;}}
+
+@media screen and (min-width: 1px) and (max-width: 1000px) {
+    #navbar {height: 100px; padding-left: 0px;}
+    #navbar li a {padding-top:35px;padding-left:20px;padding-right:20px;font-size: 22px}
+    #appimg p {padding-right: 400px;}
+body{margin-top: 0px;}}
